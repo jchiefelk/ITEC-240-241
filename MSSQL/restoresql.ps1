@@ -1,1 +1,0 @@
-Invoke-Sqlcmd -Query "RESTORE DATABASE terminalbackup FROM DISK='server2gui.bak' WITH MOVE 'server2gui' TO 'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\terminalbackup.mdf', MOVE 'server2gui_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\terminalbackup_log.ldf', REPLACE,RECOVERY;"
